@@ -1,0 +1,130 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial,sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding: 8px;
+    opacity: 0.75;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#toplinks {
+    font-size: 13px;
+    position: absolute;
+    width: 99%;
+    margin-top: -190px;
+}
+
+#topleft {
+    float: left;
+}
+
+#topright {
+    float: right;
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+}
+
+#maincontent {
+    height: 233px;
+    margin-top: 200px;
+}
+
+.searchbar {
+    margin-top: 25px;
+    height: 40px;
+    width: 560px;
+    padding: 5px 8px 0px 16px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.16),
+                0px 0px 0px 1px rgba(0,0,0,0.08);
+}
+
+.searchbar:hover {
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2),
+                0px 0px 0px 1px rgba(0,0,0,0.08);
+}
+
+.searchinput {
+    height: 34px;
+    margin: 0;
+    width: 550px;
+    border: none;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font: 16px arial, sans-serif;
+}
+
+.squareicon {
+    vertical-align: middle;
+    opacity:.75;
+}
+
+.squareicon:hover {
+    opacity: 1;
+}
+
+.searchbtn {
+    margin-top: 25px;
+}
+
+#button {
+    height: 36px;
+    line-height: 27px;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px 16px;
+    background-color: #f2f2f2;
+}
+
+#button:hover {
+    color: #2f2f2f;
+    border: 1px solid #c9c9c9;
+}
+
+.mic {
+    height: 24px;
+    width: 24px;
+    margin-left: 525px;
+    margin-top: -30px;
+}
+
+#signin {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 12px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #0463ff;
+    background-color: #0463ff;
+    cursor: default;
+}
+
+#signin:active {
+    box-shadow: inset 0px 2px 0px rgba(0,0,0,.15);
+    border: 1px solid #004ece;
+    background-color: #004ece;
+}
